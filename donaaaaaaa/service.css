@@ -1,0 +1,55 @@
+/* Services Section */
+.section_service {
+    padding: 80px 10%;
+    background-color: #fff8f0; /* Masarap sa matang warm background */
+}
+
+.service-title {
+    font-size: 36px;
+    color: #875e1b;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Container Layout */
+.service-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; /* Para kusa itong maging responsive sa mobile */
+}
+
+/* Service Card Design */
+.service-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff;
+    border: 2px solid #e2c08d;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Aangat nang kaunti kapag itinatapat ang mouse */
+    border-color: #875e1b;
+}
+
+.service-icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.service-card h2 {
+    color: #875e1b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.6;
+}

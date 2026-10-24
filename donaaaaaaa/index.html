@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chika's & Tea Café</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="businesshours.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dialogbox.css">
+
+ 
+
+</head>
+<body>
+   <header>
+     <a href="#" class="logo"><img class="logo-img" src="logofinal.png" alt="logo"></a>
+     <h1 class="header_title">Chika's <span> & Tea</span><span> Cafe</span></h1>
+     <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#service">Service</a></li>
+     </ul>
+     <div class="emoji-icon">
+        <a href="#">🛒</a>
+        <a href="#">🙍‍♀️</a>
+     </div>
+     <!-- Search Bar Component -->
+<div class="search-box">
+    <input type="text" class="search-input" placeholder="search...">
+    <button type="submit" class="search-btn">🔍</button>
+</div>
+   </header>
+
+   <!--home page-->
+   <section class="main-home" id="home">
+     <div class="home-content">
+            <h1 class="section-home_title"> Chika's <span>& Tea Cafe</span></h1>
+            <p class="section-title-desc">CommuniTea•Good Vibes• Coziness.</p>
+
+            <div class="home-botton">
+               <!-- Halimbawa: Gamiting button sa Home Section -->
+              <button class="home-btn" onclick="document.getElementById('cafeDialog').showModal()">Welcome!</button>
+            </div>
+        </div>
+    <img  class=""  src="logofinal.png" alt="logo">
+   </section>
+
+<!--about-->
+<section class="section_about" id="about">
+    <div>
+    <h1 class="section_about-title">About</h1>
+    <h2>Mission</h2>
+    <p class="about-desc">At Chika’s & Tea Café, we create more than just food and drinks—we create moments worth remembering. Our mission is to serve comforting flavors, refreshing teas, and carefully crafted coffee while providing a cozy space where laughter flows, stories are shared, and every customer feels at home.
+</p>
+</div>
+<div>
+    <h2 class="section_abouot-title">Vision</h2>
+    <p class="about-desc">To be a café where every cup comes with a story, every meal brings people closer, and every visit becomes a memory. Chika’s & Tea Café envisions becoming a beloved gathering place where good food, good tea, and good chika come together.</p>
+</div>
+
+</section>
+
+<!--products-->
+<section class="section_products" id="products">
+    <h1 class="products-title">Our Best Sellers</h1>
+    <p class="products-subtitle">Crafted with passion, brewed for your comfort.</p>
+
+    <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="choco.png" alt="" class="product-img">
+            <div class="product-info">
+                <h3>Chocolate Dark Choco</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱110.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="bread.png" alt="" class="product-img">
+            <div class="product-info">
+                <h3>Croissant</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱140.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="americano-removebg-preview (2).png" alt="" class="product-img">
+            <div class="product-info">
+                <h3>Americano Coffee</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱110.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="macha.png" alt="" class="product-img">
+            <div class="product-info">
+                <h3>Cafe Latte</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱120.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="cafe-latte.png" alt="" class="product-img">
+            <div class="product-info">
+                <h3>Cappucino</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱145.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="chocolatte.png" alt="" class="product-img">
+            <div class="product-info">
+                <h3> Caramel Cold Brew</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱155.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="strawberry.png" alt="Mocha Frappe" class="product-img">
+            <div class="product-info">
+                <h3>Strawberry Frappe</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱160.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+            <img src="lemontea.png" alt="Vanilla Cappuccino" class="product-img">
+            <div class="product-info">
+                <h3>Lemonade</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">₱135.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 9 -->
+         <div class="product-card">
+            <img src="Rich-Moist-Chocolate-Cake-Recipess-removebg-preview.png"class="product-img">
+            <div class="product-info">
+                <h3>Chocolate Moist Cake</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">&#8369;150.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+         </div>
+
+         <!-- Product 10 -->
+         <div class="product-card">
+            <img src="macha (2).png" class="product-img">
+            <div class="product-info">
+                <h3>Matcha Latte</h3>
+                <p>.</p>
+                <div class="product-bottom">
+                    <span class="price">&#8369;130.00</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+         </div>
+
+</section>
+<!-- Business Hours -->
+<section class="section_hours" id="hours">
+    <div class="hours-container">
+        <h2 class="hours-title">Café Hours</h2>
+        <p class="hours-subtitle">Visit and enjoy your coffee at chika's and tea cafe'!</p>
+        
+        <div class="hours-card">
+            <div class="hours-row">
+                <span class="day">Monday - Friday</span>
+                <span class="time">8:00 AM - 10:00 PM</span>
+            </div>
+            <div class="hours-divider"></div>
+            <div class="hours-row">
+                <span class="day">Saturday</span>
+                <span class="time">9:00 AM - 11:00 PM</span>
+            </div>
+            <div class="hours-divider"></div>
+            <div class="hours-row highlight">
+                <span class="day">Sunday</span>
+                <span class="time">9:00 AM - 9:00 PM</span>
+            </div>
+        </div>
+        
+        <p class="hours-note">☕ Open for Dine-in, Takeout, and Delivery</p>
+    </div>
+</section>
+
+
+
+
+<!-- Services Section -->
+<section class="section_service" id="service">
+    <h1 class="service-title">Our Services</h1>
+
+    <div class="service-container">
+        <!-- Service 1 -->
+        <div class="service-card">
+            <h2>Dine-In & Takeout</h2>
+            <p>Enjoy our cozy cafe' or grab your favorite coffee to go.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+            <h2>Fast Delivery</h2>
+            <p>Have your favorite drinks and snacks delivered straight to your doorstep.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+            <h2>Private Events</h2>
+            <p>Book our cafe' for your birthdays,meetings, or special, greetings.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Dialog Box / Pop-up -->
+<dialog id="cafeDialog" class="cafe-modal">
+    <div class="modal-content">
+        <h2>Chika's & Tea Cafe</h2>
+        <p class="modal-desc">Thank you for visiting! Enjoy our delicious coffee, refreshing teas, and fun conversations.</p>
+        
+        <div class="modal-info">
+            <p>📍 Location: Ayala Zone 1, Olaso Street Z.C</p>
+            <p>⏰ Open Hours: 8:00 AM - 10:00 PM</p>
+        </div>
+
+        <!-- Form method="dialog" para kusa itong mag-close nang walang JavaScript -->
+        <form method="dialog">
+            <button class="close-btn">See you!(Close)</button>
+        </form>
+    </div>
+</dialog>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <!-- Brand / Intro -->
+        <div class="footer-box">
+            <h3>Chika's & Tea Cafe</h3>
+            <p>Your go-to place for good food, good tea, and good chika.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-box">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-box">
+            <h4>Follow Us</h4>
+            <div class="footer-socials">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p> 2026 Chika's & Tea Cafe. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

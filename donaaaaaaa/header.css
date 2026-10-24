@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+header {
+   
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    background: rgb(146, 91, 45);
+    gap: 14px;
+}
+.header_title {
+    position: relative;
+    display: flex;
+    margin-right: 8%;
+    white-space: nowrap;
+    gap: 8px;
+
+}
+.header_title span{
+   color: rgb(208, 132, 31);
+ 
+}
+
+.logo-img{
+    
+    max-width: 120px;
+    height: auto;
+   
+}
+.navlist {
+    display: flex;
+    gap: 40px;
+}
+.navlist a {
+    color: burlywood;
+    font-size: 19px;
+    padding: 10px 10px;
+    margin-right: 10%;
+
+}
+.navlist a:hover {
+ text-decoration: underline;
+ color: bisque;
+
+}
+
+.emoji-icon {
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    cursor: pointer;
+    transition: all .40s ease;
+}
+.emoji-icon a:hover {
+    text-decoration: underline;
+}
+.emoji-icon a{
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* diri nanako gi add ang search bar*/
+/* Search Box Container */
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #e2c08d;
+    border-radius: 30px;
+    padding: 5px 10px 5px 18px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 10px rgba(135, 94, 27, 0.08);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Kapag pino-focus o pini-pindot ang search input */
+.search-box:focus-within {
+    border-color: #875e1b;
+    box-shadow: 0 4px 15px rgba(135, 94, 27, 0.2);
+}
+
+/* Input Text Field */
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #efe3e3;
+}
+
+.search-input::placeholder {
+    color: #ede2e2;
+}
+
+/* Search Button Icon ni */
+.search-btn {
+    background: #875e1b;
+    border: none;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-btn:hover {
+    background-color: #5c3f11;
+    transform: scale(1.05);
+}

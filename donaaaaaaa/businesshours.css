@@ -1,0 +1,77 @@
+/* Business Hours Section */
+.section_hours {
+    padding: 80px 10%;
+    background-color: #fff8f0; /* Kahalintulad na warm background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hours-container {
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+}
+
+.hours-title {
+    font-size: 36px;
+    color: #875e1b;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hours-subtitle {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+/* Card Box para sa mga Oras */
+.hours-card {
+    background-color: #ffffff;
+    border: 2px solid #e2c08d;
+    border-radius: 20px;
+    padding: 35px 40px;
+    box-shadow: 0 6px 20px rgba(135, 94, 27, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hours-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(135, 94, 27, 0.15);
+    border-color: #875e1b;
+}
+
+/* Bawat Linya ng Araw at Oras */
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 17px;
+}
+
+.day {
+    font-weight: 600;
+    color: #333;
+}
+
+.time {
+    color: #875e1b;
+    font-weight: 600;
+}
+
+/* Linya sa pagitan ng mga araw */
+.hours-divider {
+    height: 1px;
+    background-color: #f3e5d8;
+    width: 100%;
+}
+
+/* Note sa ilalim ng card */
+.hours-note {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #875e1b;
+}
